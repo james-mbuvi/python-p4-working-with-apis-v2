@@ -20,7 +20,7 @@ class Search:
         return response.content
 
     def get_search_results_json(self):
-        search_term = "the lord of the rings"
+        search_term = "the lord of the ring"
 
         search_term_formatted = search_term.replace(" ", "+")
         fields = ["title", "author_name"]
